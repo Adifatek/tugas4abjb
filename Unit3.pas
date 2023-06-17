@@ -4,7 +4,7 @@ interface
 
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
-  Dialogs, Menus;
+  Dialogs, Menus, StdCtrls;
 
 type
   TForm3 = class(TForm)
@@ -16,6 +16,9 @@ type
     LATIHAN31: TMenuItem;
     LAPORAN1: TMenuItem;
     LAPORAN11: TMenuItem;
+    btn1: TButton;
+    btn2: TButton;
+    btn3: TButton;
     procedure LATIHAN11Click(Sender: TObject);
     procedure LATIHAN21Click(Sender: TObject);
   private

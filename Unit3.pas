@@ -16,9 +16,6 @@ type
     LATIHAN31: TMenuItem;
     LAPORAN1: TMenuItem;
     LAPORAN11: TMenuItem;
-    btn1: TButton;
-    btn2: TButton;
-    btn3: TButton;
     procedure LATIHAN11Click(Sender: TObject);
     procedure LATIHAN21Click(Sender: TObject);
   private
